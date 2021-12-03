@@ -4,7 +4,7 @@ This repository contains all the content related to the talk `Kubernetes Attack 
 ### Contact Info
 Author: Mohamed (Med) Mouine
 
-Email: [mohamed.mouine.2@ulavalca](mailto:mohamed.mouine.2@ulavalca)
+Email: [mohamed.mouine.2@ulaval.ca](mailto:mohamed.mouine.2@ulaval.ca)
 
 LinkedIn: [https://www.linkedin.com/in/medmouine/](https://www.linkedin.com/in/medmouine/)
 
